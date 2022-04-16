@@ -1,0 +1,625 @@
+@font-face {
+    font-family: roboto;
+    src: url(fonts/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: rubic;
+    src: url(fonts/Rubik-Bold.ttf);
+}
+@font-face {
+    font-family:rossone;
+    src: url(fonts/RussoOne-Regular.ttf);
+}
+@font-face {
+    font-family: monoster;
+    src: url(fonts/Montserrat-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: fredoka;
+    src: url(fonts/FredokaOne-Regular.ttf);
+}
+@font-face {
+    font-family: anton;
+    src: url(fonts/Anton-Regular.ttf);
+}
+@font-face {
+    font-family:almarai;
+    src: url(fonts/Almarai-Regular.ttf);
+}
+@font-face {
+    font-family:ferdoka;
+    src: url(fonts/FredokaOne-Regular.ttf);
+}
+*{
+    font-family: roboto;
+    margin: 0%;
+}
+.first-page{
+    height: 43vw;
+    background-color:#41ad02;
+    color: #FFF;
+    text-align: center;
+}
+.protocoltext{
+    font-family: rossone;
+    padding-top: 5%;
+    font-size: 4vw;
+}
+.imgs{
+    width: 16%;
+    margin-top:5% ;
+}
+.imgdot{
+    width: 10%;
+    position: relative;
+    top: -13%;
+}
+.presentation{
+    margin-top: 7%;
+    font-size: 2.3vw;
+    font-family: monoster;
+}
+.secoud-page{
+    height: 33vw;
+    background-color: #d5e9da;
+    padding: 10%;
+    padding-top: 2%;
+
+}
+.problem{
+    color: #41ad02;
+    font-family: rossone;
+    font-size: 4vw;
+}
+.border{
+    width: 90%;
+    height: 0.1vw;
+    border: none;
+    margin-top: 2%;
+    text-shadow: 4px 3px 3px black;
+    background-color: #a2f174;
+    margin-bottom: 5%;
+}
+.probletext{
+    width: 63%;
+    line-height: 2;
+    font-weight: light;
+    font-family: monoster;
+    font-size: 2vw;
+    display: inline-block;
+
+}
+.problemsimg{
+   width: 22%;
+   float: right;
+  padding-top: -1000%;
+   
+}
+
+
+.thirdpages{
+    height: 50vw;
+    color: #fff;
+}
+.solution-title{
+    color: #41ad02;
+    margin-left: 5%;
+    padding-top: 5%;
+    font-size: 4vw;
+    font-family: rossone;
+}
+.solbox{
+    display: inline;
+    float: left;
+}
+.border1{
+    width: 80%;
+    height: 0.1vw;
+    border: none;
+    margin-top: 2%;
+    text-shadow: 4px 3px 3px black;
+    background-color: #a2f174;
+    margin-bottom: 5%;
+    margin-left: 5%;
+}
+.sol1{
+    background-color: #00b33c;
+    height: 45vw;
+    width: 25%;
+    text-align: center;
+    display: block;
+    float: left;
+    
+}
+.solimg1{
+    width: 60%;
+    margin-top: 10%;
+}
+.soltext1{
+    font-size: 1.5vw;
+    font-family: monoster;
+}
+.sol2{
+    background-color: #4fc909;
+    height: 45vw;
+    width: 25%;
+    text-align: center;
+    float: left;
+}
+.bigimgdiv{
+ float: none;
+ border: 0.6vw solid #358d02;
+ margin-top: 12%;
+
+}
+.bigimg{
+ width: 48%;
+ float: inherit;
+ margin-left: 1% ;
+ position: relative;
+    z-index: -17;
+}
+.imgtext{
+    font-family: roboto;
+    font-size: 2vw;
+    margin-top: -45%;
+    float: left;
+    background-color: #358d02;
+    color: #FFF;
+    padding: 1%;
+    text-shadow: 2px 3px 2px gray;
+    
+}
+.imgtext1{
+    font-family: roboto;
+    font-size: 2vw;
+    margin-top: -7%;
+    margin-left: 71%;
+    float: left;
+    background-color: #358d02;
+    color: #FFF;
+    padding: 1%;
+    text-shadow: 2px 3px 2px gray;
+    
+}
+.bigimgdiv1{
+    margin-top: 1%;
+    float: none;
+ border: 0.6vw solid #358d02;
+}
+.imgtext3{
+    font-family: roboto;
+    font-size: 2vw;
+    margin-top: -7%;
+    float: left;
+    background-color: #358d02;
+    color: #FFF;
+    padding: 1%;
+    text-shadow: 2px 3px 2px gray;
+    
+}
+.imgtext4{
+    font-family: roboto;
+    font-size: 2vw;
+    margin-top: -45%;
+    float: right;
+    background-color: #358d02;
+    color: #FFF;
+    padding: 1%;
+    text-shadow: 2px 3px 2px gray;
+    
+}
+.ownership{
+    font-size: 2.4vw;
+    text-align: center;
+    font-family: monoster;
+    margin-bottom: 5%;
+
+}
+
+.fourthpage{
+    color: #02ac3b;
+    padding: 3%;
+    margin-top: -1%;
+}
+.business{
+    width: 76%;
+}
+
+.linebox1{
+    position: relative;
+    top: -2vw;
+    left: 10%;
+    margin-top: 3%;
+    padding-left: 5%;
+    width: 25%;
+    display: inline-block;
+}
+.linebox{
+    /* margin-left: 8%; */
+    position: relative;
+    left: 10%;
+    padding-left: 4%;
+    width: 25%;
+    display: inline-block;
+}
+.businestext{
+    font-family: monoster;
+    font-size: 2vw;
+    text-align: center;
+    margin-top: 16%;
+  
+}
+.linebox2{
+    margin-left: 8%;
+    margin-right: auto;
+    width: 25%;
+    display: inline-block;
+    margin-top: 6%;
+    position: relative;
+    top: 2vw;
+    margin-left: 25%;
+    
+}
+.fivethpage{
+    color: #02ac3b;
+    margin-top: 5%;
+}
+.hilight{
+    text-shadow: 0px 0px 0px 2px black;
+    font-size: 2vw;
+}
+.buytext{
+    font-size: 1.6vw;
+    text-align: center;
+    font-family: monoster;
+    margin-top: -3%;
+    margin-bottom: 4%;
+}
+.linebox0{
+    /* margin-left: 8%; */
+    position: relative;
+    left: 10%;
+    padding-left: 4%;
+    width: 20%;
+    display: inline-block;
+}
+.line0box{
+
+    position: relative;
+    left: 16%;
+    margin-top: -1%;
+    width: 20%;
+    display: inline-block;
+}
+.linebox01{
+    text-align: center;
+    position: relative;
+    left: 10%;
+    top: 2vw;
+    width: 20%;
+    display: inline-block;
+}
+.profitext{
+    font-family: monoster;
+    font-size: 1.4vw;
+    margin-left: -30%;
+    text-align: center;
+    margin-top: 1%;
+}
+.profitext0{
+    font-family: monoster;
+    font-size: 1.4vw;
+    margin-left: -10%;
+    text-align: center;
+    margin-top: 1%;
+}
+.profitoptext{
+   position: relative;
+   top: -1vw;
+   left: 2vw;
+   font-family:roboto;
+   font-size: 2.3vw;
+}
+.profitoptext1{
+    position: relative;
+    top: -1vw;
+    left: 5vw;
+    font-family: roboto;
+    font-size: 2vw;
+ }
+.profitoptext0{
+    position: relative;
+    top: -1vw;
+    left: -1vw;
+    font-family:roboto;
+    font-size: 2.3vw;
+ }
+
+.lineimg0{
+    margin-top: 10%;
+}
+.arrow1{
+    width: 3%;
+   padding-top: 5%;
+}
+.sixthpage{
+    color: #02ac3b;
+    margin-top: 5%;
+}
+
+
+.examplper{
+    width: 20%;
+    margin-left: 8%;
+}
+
+.exampleaf{
+    width: 15%;
+   position: relative;
+   top: 2vw;
+}
+
+.exampfruit{
+  width: 22%;
+}
+
+.arrow2{
+    width: 13%;
+    position: relative;
+    top: -5vw;
+   
+}
+.buytext2{
+  position: absolute;
+  left: 33%;
+  margin-top: -11%;
+  font-size: 1.5vw;
+  font-family:almarai;
+}
+.buytext3{
+    position: absolute;
+    left: 60%;
+    margin-top: -11.4%;
+    font-size: 1.5vw;
+    font-family: almarai;
+  }
+
+.examparrow{
+    position: relative;
+    width: 30%;
+    left: 57%;
+    top: -1.2vw;
+}
+
+.examparrow1{
+    width: 27%;
+    position: relative;
+    left: -24%;
+    top: 2vw;
+}
+.exampmony{
+    width: 11%;
+    position: relative;
+    left: 14.5%;
+}
+
+.saventhpage{
+   height: 50vw;
+   background-color: #d5dbd7;
+   margin-top: 5%;
+  
+}
+.savenpagef{
+    background-color: #00b33c;
+    height: 50vw;
+    width: 50%;
+    margin-left: 50%;
+    /* margin-top: -45%; */
+    color: #FFF;
+    position: relative;
+    top: -90%;
+}
+
+.divimg{
+    width: 23%;
+    margin-left: 16%;
+    position: relative;
+    top: 6%;
+   
+}
+.greenimg{
+    width: 40%;
+    margin-left: 30%;
+    position: relative;
+    top: 6%;
+}
+.helptext{
+    font-size: 3vw;
+    font-family: monoster;
+    width: 30%;
+    color: #00b33c;
+    margin-left: 10%;
+    text-align: center;
+    margin-top: 5%;
+    line-height: 1.5;
+}
+.advantage{
+    font-size: 3.1vw;
+    font-family: monoster;
+    margin-top: 15%;
+    margin-left: 7%;
+}
+.tictext{
+    font-size: 2.3vw;
+    font-family: monoster;
+   
+}
+.tickiimg{
+    width: 7%;
+    position: relative;
+    top: 1.5vw;
+   margin-left: 5%;
+    
+}
+.eightpage{
+    margin-top: 2%;
+}
+
+.company1{
+    background-color: #00b33c;
+    height: 38vw;
+    width: 33.3%;
+    text-align: center;
+    display: block;
+    float: left;
+  
+    
+}
+
+.company2{
+    background-color: #4fc909;
+    height: 38vw;
+    width: 33.3%;
+    text-align: center;
+    float: left;
+   
+}
+
+.nametext{
+    font-size: 3vw;
+    font-family: monoster;
+    color: #fff;
+}
+.num1{
+  font-size: 6vw;
+  color: aliceblue;
+  font-family: monoster;
+  margin-top: 5%;
+}
+.num2{
+    font-size: 6vw;
+    color: rgb(211, 216, 219);
+    font-family: monoster;
+    margin-top: 5%;
+}
+.num3{
+    font-size: 6vw;
+    color: aliceblue;
+    font-family: monoster;
+    margin-top: 5%;
+}
+
+.last-page{
+    height: 35vw;
+    background-color:#41ad02;
+    color: #FFF;
+    text-align: center;
+    margin-top: 48%;
+}
+
+.thankyou{
+    color: #fff;
+    font-size: 4.4vw;
+    text-shadow: 0px 0px 0px 3px gray;
+    margin-top: 5%;
+    font-family: monoster;
+}
+@media only screen and (max-width:790px) {
+   .imgtext, .imgtext1 , .imgtext3 , .imgtext4{
+       font-size: 2.9vw;
+       font-family: monoster;
+       text-shadow: 0px 0px 0px green;
+   }
+    .protocoltext{
+        font-family: roboto !important;
+        font-size: 4.9vw;
+    }
+    .bigimgdiv{
+        margin-top: 24%;
+        border: 0.9vw solid #358d02;
+    }
+    .presentation{
+       font-size: 2.6vw;
+       font-family: rubic;
+       margin-top: 2%;
+    }
+    .imgs{
+        width: 20% ;
+    }
+    .probletext{
+        font-size: 2.4vw !important;
+        width: 78%;
+    }
+
+    .secoud-page{
+        height: 39vw;
+    }
+
+    .border{
+        width: 100% !important;
+    }
+    .sol1, .sol2{
+        height: 50vw;
+    }
+    .soltext1{
+        font-size: 2.3vw;
+    }
+    .sol1, .sol2{
+        height: 56vw;
+        }
+}
+@media only screen and (max-width:400px){
+    .solution-title{
+        font-family: rubic !important;
+        font-size: 5vw;
+    }
+
+    .imgtext, .imgtext1 , .imgtext3 , .imgtext4{
+        font-size: 2.2vw;
+        font-family: monoster;
+        text-shadow: 0px 0px 0px green;
+    }
+    .linebox01{
+       margin-top: 10;
+    }
+    .profitext{
+        font-size: 2vw;
+    }
+    .buytext3, .buytext2{
+        font-size:2vw ;
+        margin-top: -13%;
+        margin-left: 1%;
+    }
+    .imgdot{
+        top: -8vw;
+    }
+    .savenpagef{
+        margin-top: 3.3% ;
+        width: 49.9% ;
+    }
+    .buytext{
+        font-size: 2.5vw;
+    }
+    .problem{
+        font-family: rubic !important;
+        font-size: 5vw;
+    }
+    .ownership{
+        font-size: 3vw;
+    }
+    .linebox1, .linebox, .linebox2{
+        width: 27%;
+        margin-left: -5%;
+    }
+     .linebox2{
+         margin-left: 17%;
+     }
+
+    .presentation{
+        font-size: 3vw;
+        font-family: roboto;
+        margin-top: 1%;
+    }
+    
+}
